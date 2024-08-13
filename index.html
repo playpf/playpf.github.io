@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>像素花 Pixel Flower 服务器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        .home-green {
+            background-color: green;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .server-intro {
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .feature {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .server-intro h2, #join h2 {
+            color: #e44d26;
+        }
+
+        #join h2 {
+            color: #1a8cff;
+        }
+
+        #join .contact-info {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        #join .contact-info strong {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        #join .contact-info strong.ip {
+            color: green;
+        }
+
+        #join .contact-info strong.qq {
+            color: blue;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                width: 100%;
+            }
+
+            #join .contact-info strong {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>像素花 Pixel Flower 服务器</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="home-green">主页</a>
+        <a href="forum.php">留言板</a>
+        <a href="download.html">下载客户端</a>
+    </nav>
+    <section id="intro" class="server-intro">
+        <h2>🌸 服务器简介 🌸</h2>
+        <p>像素花是一个致力于打造欢乐、友好和创造性的我的世界服务器。我们的服务器致力于提供一种独特的游戏体验，让玩家们可以在一个温馨而充满创意的社区中尽情冒险和建设。</p>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>创造性建筑</h3>
+            <p>在像素花，我们鼓励玩家发挥他们的创造力，建造独特、美丽的结构，共同打造一个令人惊叹的世界。</p>
+        </div>
+        <div class="feature">
+            <h3>友好社区</h3>
+            <p>我们的社区充满了友善和热情的玩家，大家一起分享建筑灵感、游戏心得，共同努力维护一个和谐的游戏环境。</p>
+        </div>
+        <div class="feature">
+            <h3>活动和比赛</h3>
+            <p>定期举办各种有趣的活动和创意建筑比赛，让玩家有机会展示他们的才华，并有机会赢得丰厚的奖励。</p>
+        </div>
+        <div class="feature">
+            <h3>经济系统</h3>
+            <p>在服务器中，你可以通过各种方式赚取游戏内货币，购买物品和服务，助力你的冒险之旅。</p>
+        </div>
+    </section>
+    <section id="join">
+        <h2>🌐 加入我们 🌐</h2>
+        <p>无论你是新手还是经验丰富的老玩家，都欢迎加入像素花服务器！我们相信每一个玩家都能在这里找到属于自己的一片花海，展开一段充满乐趣的冒险之旅。</p>
+        <div class="contact-info">
+            <strong class="ip">IP地址：<span style="color:green;">39.98.36.142</span></strong>
+            <strong class="qq">QQ群：<span style="color:blue;">628681397</span></strong>
+        </div>
+    </section>
+    <footer>
+        <p>版权所有 © 像素花服务器 2024</p>
+    </footer>
+</body>
+</html>
